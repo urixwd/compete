@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="/stylesheets/bootstrap.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]><script src="/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <script src="/assets/js/ie-emulation-modes-warning.js"></script>
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header" role="navigation">
+                <button id="navbar-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="images/222222_blue_300.png" target="_blank" style="padding:0;"><img src="images/222222_blue_300.png" style="max-height:100%;" alt="logo" /></a>
+            </div>
+
+            <div class="navbar-collapse collapse dd-menu" id="main-nav">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#solutions">פתרונות</a></li>
+                    <li><a href="#support">תמיכה</a></li>
+                    <li><a href="#about">אודות</a></li>
+                    <li><a href="#contact">צור קשר</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+         <!-- Main jumbotron for a primary marketing message or call to action -->
+         <div class="jumbotron">
+           <div class="container">
+             <img src="/images/man_white.png" class = "img-responsive center-block" />
+             <h1>ברוכים הבאים לקומפיט פתרונות תוכנה</h1>
+           </div>
+         </div>
+
+         <ul class="" id="rows_container">
+           <!-- Example row of columns -->
+
+             <li class="row">
+                <div class="col-md-4">
+                    <img class="img-responsive center-block top-icon" src="images/icons/studio_icon.png" alt="Generic placeholder image" class="col-icon">
+                    <h2><strong>Compete</strong> לסטודיו</h2>
+                    <p>נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח. לת צשחמי צש בליא, מנסוטו צמלח לביקו ננבי, צמוקו בלוקריה שיצמה ברורק.</p>
+                    <p class="btn_wrap"><a class="btn btn-default" href="#for_studio" role="button">פרטים נוספים &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive center-block top-icon" src="images/icons/hug_icon.png" alt="Generic placeholder image" class="col-icon">
+                    <h2><strong>Compete</strong> למרכזי חוגים ורשויות</h2>
+                    <p>נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח. לת צשחמי צש בליא, מנסוטו צמלח לביקו ננבי, צמוקו בלוקריה שיצמה ברורק.</p>
+                    <p class="btn_wrap"><a class="btn btn-default" href="#for_hug" role="button">פרטים נוספים &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive center-block top-icon" src="images/icons/sport_icon.png" alt="Generic placeholder image" class="col-icon">
+                    <h2><strong>Compete</strong> למועדוני ספורט</h2>
+                    <p>נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח. לת צשחמי צש בליא, מנסוטו צמלח לביקו ננבי, צמוקו בלוקריה שיצמה ברורק.</p>
+                    <p class="btn_wrap"><a class="btn btn-default" href="#for_sports" role="button">פרטים נוספים &raquo;</a></p>
+                </div>
+             </li>
+             <li id="for_sports">
+                <h2><strong>Compete</strong> למועדוני ספורט</h2>
+                <p>&nbsp;</p>
+                <p>מערכת שתנהל עבורך</p>
+                    <ul class="features">
+                        <li class="ft_item">קבוצות, שחקנים, אימונים ומשחקים</li>
+                        <li class="ft_item">אדמיניסטרציה</li>
+                        <li class="ft_item">כספים</li>
+                        <li class="ft_item">רישום</li>
+                        <li class="ft_item">ליגות</li>
+                        <li class="ft_item">ועוד...</li>
+                    </ul>
+             </li>
+             <li id="for_hug">
+                <h2><strong>Compete</strong> למרכזי חוגים ורשויות</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+             </li>
+             <li id="for_studio">
+                <h2><strong>Compete</strong> לסטודיו</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+             </li>
+
+             <li id="solutions">
+               <h2>פתרונות</h2>
+               <p>&nbsp;</p>
+               <p>הפתרונות של קומפיט בלה בלה...</p>
+               <ul class="features">
+                   <li class="ft_item">סליקת אשראי</li>
+                   <li class="ft_item">SMS/Email</li>
+                   <li class="ft_item">ממשק לתוכנת הנה"ח</li>
+                   <li class="ft_item">דוחות מקיפים</li>
+                   <li class="ft_item">רישום ותשלום לקבוצות באינטרנט</li>
+                   <li class="ft_item">ענן נגיש מכל מקום</li>
+                   <li class="ft_item">גיבוי על בסיס יומי</li>
+                   <li class="ft_item">ועוד...</li>
+               </ul>
+
+             </li>
+
+             </li>
+             <li id="support">
+               <h2>תמיכה</h2>
+               <p>&nbsp;</p>
+               <p>בכל עת ניתן לפתוח קריאת שירות ישירות מהתוכנה.</p>
+                   <ul class="features">
+                       <li class="ft_item"><a href="javascript:void(0)" id="rdp_download">הורדת חיבור למערכת</a></li>
+                       <li class="ft_item">&nbsp;</li>
+                       <li class="ft_item"><a href="#">תמיכה מרחוק</a></li>
+                       <li class="ft_item"><a href="#">טופס תשלום בהוראת קבע</a></li>
+                       <li class="ft_item"><a href="#">הורדת .NET FrameWork 3.5 </a></li>
+                       <li class="ft_item"><a href="#">אישור ניהול ספרים</a></li>
+                       <li class="ft_item"><a href="#">אישור ניכוי מס במקור</a></li>
+                   </ul>
+
+            </li>
+             <li id="about">
+               <h2>אודות</h2>
+               <p>&nbsp;</p>
+               <p>Compete מציעה מגוון פתרונות תוכנה משולבים לשליטה על כלל תחומי הפעילות של הארגון. אנחנו דוגלים בתפיסה לפיה יחס אישי ומערכת יעילה ואמינה - יביאו את הלקוח להיות מרוצה.</p>
+
+             </li>
+             <li id="contact">
+               <h2>צור קשר</h2>
+               <p>&nbsp;</p>
+               <p>קומפיט פתרונות תוכנה</p>
+               <p>COMPETE Software Solutions</p>
+
+               <p><a href="mailto:info@compete-soft.com">info@compete-soft.com</a></p>
+
+               <p>טלפון  	<a href="tel:035226424">03-5226424</a></p>
+               <p>פקס	03-7256395</p>
+               <p>ת.ד. 155, עין אילה 30825</p>
+               <p>&nbsp;</p>
+               <p>
+                    <form class="form-horizontal">
+                        <fieldset>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                              <label class="control-label" for="fname">שם פרטי</label>
+                              <input id="fname" name="fname" type="text" placeholder="" class="form-control input-md" required="">
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                              <label class="control-label" for="fname">שם משפחה</label>
+                              <input id="fname" name="fname" type="text" placeholder="" class="form-control input-md" required="">
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                              <label class="control-label" for="phone">טלפון קווי</label>
+                              <input id="phone" name="phone" type="text" placeholder="" class="form-control input-md">
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                              <label class="control-label" for="cell">טלפון סלולרי</label>
+                              <input id="cell" name="cell" type="text" placeholder="" class="form-control input-md" required="">
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                              <label class="control-label" for="email">אימייל</label>
+                              <input id="email" name="email" type="text" placeholder="" class="form-control input-md" required="">
+                            </div>
+
+                            <!-- Select Basic -->
+                            <div class="form-group">
+                              <label class="control-label" for="version">מתעניינ/ת בגרסת</label>
+                                <select id="version" name="version" class="form-control">
+                                  <option value="1">מרכזי חוגים ורשויות</option>
+                                  <option value="2">מועדוני ספורט</option>
+                                  <option value="3">סטודיו</option>
+                                </select>
+                            </div>
+
+                            <!-- Textarea -->
+                            <div class="form-group">
+                              <label class="control-label" for="txt">הודעה</label>
+                                <textarea class="form-control" id="txt" name="txt"></textarea>
+                            </div>
+
+                            <!-- Button -->
+                            <div class="form-group">
+                              <label class="control-label" for="btn_send">&nbsp;</label>
+                                <button id="btn_send" name="btn_send" class="btn btn-primary">שלח</button>
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </p>
+             </li>
+             <li class="footer">
+                <p>&copy; Compete-Soft 2014</p>
+             </li>
+         </ul> <!-- /container -->
+         <!-- Bootstrap core JavaScript
+         ================================================== -->
+         <!-- Placed at the end of the document so the pages load faster -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+         <script src="/javascripts/bootstrap.min.js"></script>
+         <!-- bootbox code -->
+         <script src="http://bootboxjs.com/bootbox.js"></script>
+         <script>
+             $(function() {
+               $('a[href*=#]:not([href=#])').click(function() {
+                 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                   var target = $(this.hash);
+                   target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                   if (target.length) {
+                     $('html,body').animate({
+                       scrollTop: target.offset().top-50
+                     }, 1000);
+                     return false;
+                   }
+                 }
+               });
+             });
+             $(document).ready(function () {
+                 $("#main-nav ul li a").click(function(event) {
+                     // check if window is small enough so dropdown is created
+                     $("#navbar-toggle").is(":visible")
+                         $("#main-nav").removeClass("in").addClass("collapse");
+                 });
+               });
+             $('#rdp_download').click(function(event){
+                bootbox.dialog({
+                  message: '<input id="pass" name="pass" type="text" class="form-control input-md" placeholder="" style="width:250px; margin-right:0; margin-left: auto;" />',
+                  title: "<div style='text-align: right;'>יש להקיש סיסמה&nbsp;</div>",
+                  buttons: {
+                    ok: {
+                      label: "המשך",
+                      callback: function() {
+                        var pass = $("#pass").val();
+                        if(pass) alert(pass);
+                        return false;
+                      }
+                    },
+                    cancel: {
+                      label: "ביטול",
+                      callback: function() {
+                        bootbox.hideAll()
+                      }
+                    }
+                  }
+                });
+             });
+         </script>
+  </body>
+</html>

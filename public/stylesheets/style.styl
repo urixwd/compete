@@ -1,0 +1,136 @@
+$almost_black = #222222
+$bright_grey = #f2f2f2
+$dark_grey = #505050
+$bright_blue = #00bcf2
+$plain_blue = #1b429a
+$plain_orange = #fa6800
+
+body
+  font 14px "segoe ui", Helvetica, Arial, sans-serif
+  overflow hidden
+a
+  //color: #00B7FF
+p, ul.features > li.ft_item
+  line-height 25px
+  font-size 18px
+p, h2, ul.features > li.ft_item
+  color $dark_grey
+
+.jumbotron
+  color white
+  //text-shadow 1px 1px 1px $plain_blue
+  margin-bottom 0
+  background-color $bright_blue
+  //background-image url('../images/main_gradient.png')
+  background-clip border-box
+.jumbotron .container
+  //border 1px solid black
+.jumbotron .container img
+  margin-top 25px
+.jumbotron .container h1
+  max-width 400px
+  text-align center
+  font-size 40px
+  //border 1px solid red
+  margin-right auto
+  margin-left auto
+  //margin-bottom 0
+  //color: red
+img.top-icon{
+  max-width 140px
+}
+ul.nav > li > a, ul.nav > li > a:link, ul.nav > li > a:visited
+  color $bright_blue
+  text-align right
+ul.nav > li > a:hover
+  color $dark_grey
+
+
+@media (min-width: 992px and max-width 1199px)
+  li.row > div.col-md-4
+      padding-right 50px
+      padding-left 50px
+      //border 1px solid blue
+@media (min-width: 1200px)
+  li.row > div.col-md-4
+    padding-right 100px
+    padding-left 100px
+//border 1px solid blue
+img.img-circle
+  margin-top 20px
+li.row > div.col-md-4 > h2
+  text-align center
+li.row > div.col-md-4 > p
+  direction rtl
+p.btn_wrap
+  text-align left
+
+
+#rows_container
+  margin 0
+  padding 0
+  list-style-type none
+#rows_container > li
+  direction rtl
+  text-align right
+  //margin 0
+  color $dark_grey
+  border-top 1px solid white
+  border-bottom 1px solid white
+  padding-left 20px
+  padding-right 20px
+  min-height 400px
+#rows_container > li:nth-child(1)
+  background-color white
+  color black
+#rows_container > li:nth-child(2)
+  background-color $bright_grey
+  color black
+#rows_container > li:nth-child(3)
+  background-color white
+#rows_container > li:nth-child(4)
+  background-color $bright_grey
+  color black
+#rows_container > li:nth-child(5)
+  background-color $dark_grey
+#rows_container > li:nth-child(5) *
+  color white
+#rows_container > li:nth-child(7)
+  background-color $bright_grey
+#rows_container > li.footer
+  min-height 50px
+  background-color $plain_blue
+  direction ltr
+#rows_container > li.footer *
+  text-align left
+  color white
+
+ul.features
+  list-style-type none
+
+.form-horizontal fieldset div.form-group
+  border: 1px solid transparent
+.form-group label,
+.form-group input,
+.form-group select,
+.form-group textarea,
+.form-group button
+  float:right
+.form-group input,
+.form-group select,
+.form-group textarea,
+.form-group button
+  width 350px
+.form-group textarea
+  height 120px
+.form-group input,
+.form-group textarea
+  direction rtl
+@media (min-width: 992px)
+  .form-group label
+    padding-right 20px
+.form-group label
+  width: 200px
+  margin 0
+  font-weight normal
+  font-size larger
